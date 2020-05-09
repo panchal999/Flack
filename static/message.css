@@ -1,0 +1,77 @@
+/*#channels{
+	margin: 20px;
+	list-style-type: none;
+	text-align: center;
+}*/
+
+#channel_form{
+	margin: 15px;
+}
+
+html,body,.container {
+    height:75vh;
+}
+
+body{
+	background-color: #3498db !important;
+}
+.chat-form{
+	margin-top:20px; 
+}
+
+.container > .row{
+	height: 85vh;
+	background-color: white;
+	border: solid 1px blue;
+}
+.sidenav{
+	background: #eee;
+}
+
+.block{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.chatlogs{
+	padding: 10px;
+	height: 450px;
+	overflow-y: scroll;
+}
+
+.chatlogs::-webkit-scrollbar {
+	width: 10px;
+}
+
+.chatlogs::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background:rgb(0,0,0,.1);
+}
+
+#channelnew{
+	overflow-y: scroll;
+	height: 420px;
+}
+
+#channelnew::-webkit-scrollbar {
+	width: 10px;
+}
+
+#channelnew::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background:rgb(0,0,0,.1);
+}
+
+
+.msg-username{
+	text-align: left;
+	text-decoration-style: bold;
+
+}
+
+.msg-time{
+	text-align: right;
+	float: right;
+}
+
